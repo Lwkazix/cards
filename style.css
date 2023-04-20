@@ -1,0 +1,53 @@
+.container{
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    justify-content: space-between;
+    row-gap: 100px;
+    margin: 0 auto;
+    padding: 40px
+  
+}
+.card{
+    border: 5px solid black;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.container{
+    animation: bgimage infinite 60s;
+    
+}
+h3{
+    color: white;
+}
+h4{
+    color: #fff;
+}
+.chute{
+    width: 150px;
+    text-align: center;
+    height: 100px;
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+body{
+   background-image: linear-gradient(black,rgb(9, 9, 136));
+   width: 2000px;
+   height: 1500px;
+}
+ @keyframes bgimage{
+    0%{
+        background-image: url("ronaldinho.jpg");
+    }
+    50%{
+        background-image: url("pogba.jpg");
+    }
+    100%{
+        background-image: url("neymar.webp");
+    }  
+}
